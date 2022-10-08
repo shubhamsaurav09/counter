@@ -38,9 +38,27 @@ button {
   min-width: 10rem;
 }
 
-button:hover,
-button:focus {
-  background-color: rgba(255, 255, 255, 1);
+#increment {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid green;
+}
+
+#decrement {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+#reset {
+  background-color: rgba(255, 255, 255, 0.55);
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+#increment:hover,
+#decrement:hover,
+#reset:hover {
+  background-color: white;
 }
 
 h1 {
@@ -62,21 +80,4 @@ h2 {
   justify-content: space-between;
   gap: 1rem;
   padding-top: 3rem;
-}
-
-#increment {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 2px solid green;
-}
-
-#decrement {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 2px solid red;
-  border-radius: 5px;
-}
-
-#reset {
-  background-color: rgba(255, 255, 255, 0.55);
-  border: 2px solid blue;
-  border-radius: 5px;
 }
