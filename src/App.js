@@ -4,11 +4,11 @@ export default function App() {
   const [count, setCount] = useState(0);
   const disableReset = count === 0 ? true : false;
 
-  const handleIncrement = ({ EventTarget }) => {
+  const handleIncrement = () => {
     setCount((prev) => prev + 1);
   };
 
-  const handleDecrement = ({ EventTarget }) => {
+  const handleDecrement = () => {
     setCount((prev) => prev - 1);
   };
 
