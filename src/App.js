@@ -23,7 +23,7 @@ export default function App() {
         <button id="decrement" onClick={handleDecrement}>
           Decrement
         </button>
-        <button id="reset" onClick={() => setCount(0)} disabled={disableReset}>
+        <button id="reset" onClick={() => setCount(0)} /* Removed disabled*/ >
           Reset
         </button>
       </div>
